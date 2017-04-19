@@ -20,6 +20,19 @@ body {
               animation: fadein 1s;
 }
 
+.info {
+  background-color: white;
+}
+.projects {
+  background-color: black;
+}
+
+
+
+
+
+
+
 
 @keyframes fadein {
     from { opacity: 0; }
