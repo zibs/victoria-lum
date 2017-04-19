@@ -1,18 +1,29 @@
-/*@font-face {
-    font-family: UniversLTStd-Light;
-    src: url(../fonts/UniversLTStd-Light.otf);
-}
-@font-face {
-    font-family: Rasmus-Bold;
-    src: url(../fonts/Rasmus-Bold.otf);
-}
-@font-face {
-    font-family: Rasmus-Regular;
-    src: url(../fonts/Rasmus-Regular.otf);
-}*/
-body {
-  /*font-family: UniversLTStd-Light !important;*/
+/**
+ * @license
+ * MyFonts Webfont Build ID 3298778, 2016-10-21T20:03:55-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: AlbertusMTPro by Monotype
+ * URL: http://www.myfonts.com/fonts/mti/albertus/pro-roman/
+ * Copyright: Font software (c) 1992 Adobe Systems Incorporated. Typeface designs (c) 1992 The Monotype Corporation. All rights reserved.
+ * Licensed pageviews: 250,000
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3298778
+ *
+ * © 2016 MyFonts Inc
+*/
+@import url("//hello.myfonts.net/count/3255da");
+@font-face {font-family: 'AlbertusMTPro';src: url('webfonts/3255DA_0_0.eot');src: url('webfonts/3255DA_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3255DA_0_0.woff2') format('woff2'),url('webfonts/3255DA_0_0.woff') format('woff'),url('webfonts/3255DA_0_0.ttf') format('truetype');}
 
+
+body {
+  font-family: AlbertusMTPro !important;
       -webkit-animation: fadein 1s;
          -moz-animation: fadein 1s;
           -ms-animation: fadein 1s;
@@ -20,19 +31,38 @@ body {
               animation: fadein 1s;
 }
 
+h1 {
+  font-size: 1.4em;
+}
+
 .info {
   background-color: white;
+  padding-top: 44px;
 }
 .projects {
   background-color: black;
+  padding-top: 44px;
 }
 
+.about > p {
+  font-size: 1em;
+  margin-bottom: 2em;
+}
 
-
-
-
-
-
+section.header {
+  margin-bottom: 10%;
+  margin-left: 15px;
+}
+section.work {
+  margin-bottom: 10%;
+  margin-left: 15px;
+}
+section.work > h5  {
+  line-height: 2em;
+}
+section.work-links > h5 {
+  line-height: 2em;
+}
 
 @keyframes fadein {
     from { opacity: 0; }
