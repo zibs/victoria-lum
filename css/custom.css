@@ -64,6 +64,49 @@ section.work-links > h5 {
   line-height: 2em;
 }
 
+.active {
+  background-color: yellow;
+  display: flex !important;
+}
+.hidden {
+  display: none;
+}
+.project {
+
+}
+
+
+.base-project {
+  position:relative;
+}
+.base-filament {
+  max-height: 300px;
+  position: relative;
+  left: 50%;
+}
+.base-charcuterie {
+  max-height: 300px;
+  bottom: 50px;
+  position: relative;
+}
+.base-polygon {
+  max-height: 300px;
+  /*bottom: 150px;*/
+  left: 40%;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
