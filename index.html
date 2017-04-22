@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/lightbox.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/custom.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -25,14 +26,14 @@
               <section class="work">
                 <h5>WORK</h5>
                 <section class="work-links">
-                  <h5 id="filament">__ FILAMENT</h5>
-                  <h5 id="charcuterie">__ CHARCUTERIE MAGAZINE</h5>
-                  <h5 id="polygon">__ THE POLYGON</h5>
-                  <h5 id="negative-space">__ NEGATIVE SPACE</h5>
-                  <h5 id="original-replica">__ ORIGINAL//REPLICA</h5>
-                  <h5 id="tower-block">__ TOWER BLOCK: CEDRIC BOMFORD</h5>
-                  <h5 id="feuilleton">__ FEUILLETON</h5>
-                  <h5 id="editions">__ EDTIONS FOR BILL BROWN</h5>
+                  <h5 class="project-link" id="filament">__ FILAMENT</h5>
+                  <h5 class="project-link" id="charcuterie">__ CHARCUTERIE MAGAZINE</h5>
+                  <h5 class="project-link" id="polygon">__ THE POLYGON</h5>
+                  <h5 class="project-link" id="negative-space">__ NEGATIVE SPACE</h5>
+                  <h5 class="project-link" id="original-replica">__ ORIGINAL//REPLICA</h5>
+                  <h5 class="project-link" id="tower-block">__ TOWER BLOCK: CEDRIC BOMFORD</h5>
+                  <h5 class="project-link" id="feuilleton">__ FEUILLETON</h5>
+                  <h5 class="project-link" id="editions">__ EDTIONS FOR BILL BROWN</h5>
                 </section>
               </section>
               <section class="about">
@@ -43,18 +44,19 @@
               </section>
             </section>
             <section class="projects col-md-7">
-              <ul class="nav">
-                <li class="nav-item">
-                  <h5 class="nav-link"><a href="" class="">CV</a></h5>
-                </li>
-                <li class="nav-item">
-                  <h5 class="nav-link"><a href="" class="">CONTACT</a></h5>
-                </li>
-              </ul>
+              <section class="project-header">
+                <h5>CV</h5>
+                <h5 class="float-right">CONTACT</h5>
+              </section>
+
               <!-- Base Project -->
               <section class="base-project">
-                  <img src="img/filament/filament-2.png" class="img-fluid base-filament d-block mx-r" alt="">
+                <a href="img/filament/filament-2.jpg" data-lightbox="filament">
+                  <img src="img/filament/filament-2.png" class="img-fluid base-filament d-block mx-r" alt="filament">
+                </a>
+                <a href="img/Charcuterie/charcuterie-2.jpg" data-lightbox="charcuterie">
                   <img src="img/Charcuterie/charcuterie-2.png" class="img-fluid base-charcuterie " alt="">
+                </a>
                   <img src="img/Polygon/polygon-1.png" class="img-fluid base-polygon" alt="">
                   <img src="img/SFU/sfu-4.png" class="img-fluid base-sfu" alt="">
                   <img src="img/RedBull/red-bull-1.png" class="img-fluid base-redbull" alt="">
@@ -64,29 +66,158 @@
               </section>
 
               <section id="project-filament" class="hidden project">
-                <h1>project one</h1>
-
+                <a href="img/filament/filament-1.jpg" data-lightbox="filament">
+                  <img src="img/filament/filament-1.png" class="img-fluid d-block mx-auto filament-1" alt="filament">
+                </a>
+                <a href="img/filament/filament-3.jpg" data-lightbox="filament">
+                  <img src="img/filament/filament-3.png" class="img-fluid d-block mx-auto filament-1" alt="filament">
+                </a>
               </section>
               <section id="project-charcuterie" class="hidden project">
-                <h1>project three</h1>
+                <a href="img/Charcuterie/charcuterie-1.jpg" data-lightbox="charcuterie">
+                  <img src="img/Charcuterie/charcuterie-1.png" class="img-fluid d-block mx-auto filament-1" alt="Charcuterie">
+                </a>
+                <a href="img/Charcuterie/charcuterie-2.jpg" data-lightbox="charcuterie">
+                  <img src="img/Charcuterie/charcuterie-2.png" class="img-fluid d-block mx-auto filament-1" alt="Charcuterie">
+                </a>
+                <a href="img/Charcuterie/charcuterie-3.jpg" data-lightbox="charcuterie">
+                  <img src="img/Charcuterie/charcuterie-3.png" class="img-fluid d-block mx-auto filament-1" alt="Charcuterie">
+                </a>
+                <a href="img/Charcuterie/charcuterie-4.jpg" data-lightbox="charcuterie">
+                  <img src="img/Charcuterie/charcuterie-4.png" class="img-fluid d-block mx-auto filament-1" alt="Charcuterie">
+                </a>
+                <a href="img/Charcuterie/charcuterie-5.jpg" data-lightbox="charcuterie">
+                  <img src="img/Charcuterie/charcuterie-5.png" class="img-fluid d-block mx-auto filament-1" alt="Charcuterie">
+                </a>
+                <a href="img/Charcuterie/charcuterie-6.jpg" data-lightbox="charcuterie">
+                  <img src="img/Charcuterie/charcuterie-6.png" class="img-fluid d-block mx-auto filament-1" alt="Charcuterie">
+                </a>
+                <a href="img/Charcuterie/charcuterie-7.jpg" data-lightbox="charcuterie">
+                  <img src="img/Charcuterie/charcuterie-7.png" class="img-fluid d-block mx-auto filament-1" alt="Charcuterie">
+                </a>
+                <a href="img/Charcuterie/charcuterie-8.jpg" data-lightbox="charcuterie">
+                  <img src="img/Charcuterie/charcuterie-8.png" class="img-fluid d-block mx-auto filament-1" alt="Charcuterie">
+                </a>
+                <a href="img/Charcuterie/charcuterie-9.jpg" data-lightbox="charcuterie">
+                  <img src="img/Charcuterie/charcuterie-9.png" class="img-fluid d-block mx-auto filament-1" alt="Charcuterie">
+                </a>
+                <a href="img/Charcuterie/charcuterie-10.jpg" data-lightbox="charcuterie">
+                  <img src="img/Charcuterie/charcuterie-10.png" class="img-fluid d-block mx-auto filament-1" alt="Charcuterie">
+                </a>
+                <a href="img/Charcuterie/charcuterie-11.jpg" data-lightbox="charcuterie"></a>
+
               </section>
               <section id="project-polygon" class="hidden project">
-                <h1>project five</h1>
+                <a href="img/Polygon/polygon-1.jpg" data-lightbox="polygon">
+                  <img src="img/Polygon/polygon-1.png" class="img-fluid d-block mx-auto filament-1" alt="Polygon">
+                </a>
+                <a href="img/Polygon/polygon-2.jpg" data-lightbox="polygon">
+                  <img src="img/Polygon/polygon-2.png" class="img-fluid d-block mx-auto filament-1" alt="Polygon">
+                </a>
+                <a href="img/Polygon/polygon-3.jpg" data-lightbox="polygon">
+                  <img src="img/Polygon/polygon-3.png" class="img-fluid d-block mx-auto filament-1" alt="Polygon">
+                </a>
+                <a href="img/Polygon/polygon-4.jpg" data-lightbox="polygon">
+                  <img src="img/Polygon/polygon-4.png" class="img-fluid d-block mx-auto filament-1" alt="Polygon">
+                </a>
+                <a href="img/Polygon/polygon-5.jpg" data-lightbox="polygon">
+                </a>
               </section>
               <section id="project-negative-space" class="hidden project">
-                <h1>project six</h1>
+                <a href="img/SFU/sfu-1.jpg" data-lightbox="sfu">
+                  <img src="img/SFU/sfu-1.png" class="img-fluid d-block mx-auto filament-1" alt="SFU">
+                </a>
+                <a href="img/SFU/sfu-2.jpg" data-lightbox="sfu">
+                  <img src="img/SFU/sfu-2.png" class="img-fluid d-block mx-auto filament-1" alt="SFU">
+                </a>
+                <a href="img/SFU/sfu-3.jpg" data-lightbox="sfu">
+                  <img src="img/SFU/sfu-3.png" class="img-fluid d-block mx-auto filament-1" alt="SFU">
+                </a>
+                <a href="img/SFU/sfu-4.jpg" data-lightbox="sfu">
+                  <img src="img/SFU/sfu-4.png" class="img-fluid d-block mx-auto filament-1" alt="SFU">
+                </a>
+                <a href="img/SFU/sfu-5.jpg" data-lightbox="sfu">
+                  <img src="img/SFU/sfu-5.png" class="img-fluid d-block mx-auto filament-1" alt="SFU">
+                </a>
+                <a href="img/SFU/sfu-6.jpg" data-lightbox="sfu">
+                  <img src="img/SFU/sfu-6.png" class="img-fluid d-block mx-auto filament-1" alt="SFU">
+                </a>
+                <a href="img/SFU/sfu-7.jpg" data-lightbox="sfu">
+                  <img src="img/SFU/sfu-7.png" class="img-fluid d-block mx-auto filament-1" alt="SFU">
+                </a>
+                <a href="img/SFU/sfu-8.jpg" data-lightbox="sfu"></a>
               </section>
               <section id="project-original-replica" class="hidden project">
-                <h1>project seven</h1>
+                <a href="img/OriginalReplica/oc-1.jpg" data-lightbox="oc">
+                  <img src="img/OriginalReplica/oc-1.png" class="img-fluid d-block mx-auto filament-1" alt="OriginalReplica">
+                </a>
+                <a href="img/OriginalReplica/oc-2.jpg" data-lightbox="oc">
+                  <img src="img/OriginalReplica/oc-2.png" class="img-fluid d-block mx-auto filament-1" alt="OriginalReplica">
+                </a>
+                <a href="img/OriginalReplica/oc-3.jpg" data-lightbox="oc">
+                  <img src="img/OriginalReplica/oc-3.png" class="img-fluid d-block mx-auto filament-1" alt="OriginalReplica">
+                </a>
+                <a href="img/OriginalReplica/oc-4.jpg" data-lightbox="oc">
+                  <img src="img/OriginalReplica/oc-4.png" class="img-fluid d-block mx-auto filament-1" alt="OriginalReplica">
+                </a>
+                <a href="img/OriginalReplica/oc-5.jpg" data-lightbox="oc">
+                  <img src="img/OriginalReplica/oc-5.png" class="img-fluid d-block mx-auto filament-1" alt="OriginalReplica">
+                </a>
+                <a href="img/OriginalReplica/oc-6.jpg" data-lightbox="oc">
+                  <img src="img/OriginalReplica/oc-6.png" class="img-fluid d-block mx-auto filament-1" alt="OriginalReplica">
+                </a>
+                <a href="img/OriginalReplica/oc-7.jpg" data-lightbox="oc">
+                  <img src="img/OriginalReplica/oc-7.png" class="img-fluid d-block mx-auto filament-1" alt="OriginalReplica">
+                </a>
+                <a href="img/OriginalReplica/oc-8.jpg" data-lightbox="oc">
+                  <img src="img/OriginalReplica/oc-8.png" class="img-fluid d-block mx-auto filament-1" alt="OriginalReplica">
+                </a>
+                <a href="img/OriginalReplica/oc-9.jpg" data-lightbox="oc"></a>
               </section>
               <section id="project-tower-block" class="hidden project">
-                <h1>project seven</h1>
+                <a href="img/RedBull/red-bull-2.jpg" data-lightbox="red-bull">
+                  <img src="img/RedBull/red-bull-2.png" class="img-fluid d-block mx-auto filament-1" alt="RedBull">
+                </a>
+                <a href="img/RedBull/red-bull-1.jpg" data-lightbox="red-bull">
+                  <img src="img/RedBull/red-bull-1.png" class="img-fluid d-block mx-auto filament-1" alt="RedBull">
+                </a>
+                <a href="img/RedBull/red-bull-3.jpg" data-lightbox="red-bull">
+                </a>
+                <a href="img/RedBull/red-bull-5.jpg" data-lightbox="red-bull">
+                </a>
               </section>
               <section id="project-feuilleton" class="hidden project">
-                <h1>project eight</h1>
+                <a href="img/Feuilleton/feuilleton-3.jpg" data-lightbox="feuilleton">
+                  <img src="img/Feuilleton/feuilleton-3.png" class="img-fluid d-block mx-auto filament-1" alt="Feuilleton">
+                </a>
+                <a href="img/Feuilleton/feuilleton-1.jpg" data-lightbox="feuilleton">
+                  <img src="img/Feuilleton/feuilleton-1.png" class="img-fluid d-block mx-auto filament-1" alt="Feuilleton">
+                </a>
+                <a href="img/Feuilleton/feuilleton-2.jpg" data-lightbox="feuilleton">
+                  <img src="img/Feuilleton/feuilleton-2.png" class="img-fluid d-block mx-auto filament-1" alt="Feuilleton">
+                </a>
+                <a href="img/Feuilleton/feuilleton-4.jpg" data-lightbox="feuilleton">
+                  <img src="img/Feuilleton/feuilleton-4.png" class="img-fluid d-block mx-auto filament-1" alt="Feuilleton">
+                </a>
+                <a href="img/Feuilleton/feuilleton-6.jpg" data-lightbox="feuilleton">
+                </a>
               </section>
               <section id="project-editions" class="hidden project">
-                <h1>project nine</h1>
+                <a href="img/Editions/editions-1.jpg" data-lightbox="editions">
+                  <img src="img/Editions/editions-1.png" class="img-fluid d-block mx-auto filament-1" alt="Editions">
+                </a>
+                <a href="img/Editions/editions-2.jpg" data-lightbox="editions">
+                  <img src="img/Editions/editions-2.png" class="img-fluid d-block mx-auto filament-1" alt="Editions">
+                </a>
+                <a href="img/Editions/editions-3.jpg" data-lightbox="editions">
+                  <img src="img/Editions/editions-3.png" class="img-fluid d-block mx-auto filament-1" alt="Editions">
+                </a>
+                <a href="img/Editions/editions-4.jpg" data-lightbox="editions">
+                  <img src="img/Editions/editions-4.png" class="img-fluid d-block mx-auto filament-1" alt="Editions">
+                </a>
+                <a href="img/Editions/editions-5.jpg" data-lightbox="editions">
+                  <img src="img/Editions/editions-5.png" class="img-fluid d-block mx-auto filament-1" alt="Editions">
+                </a>
               </section>
 
 
@@ -97,6 +228,7 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
+        <script src="js/vendor/lightbox.min.js"></script>
         <script src="js/main.js"></script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
