@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $(".work-links > h5").hover(
     function() {
+      $(this).find("span").fadeTo("slow", 0)
       $(".base-project").hide();
       var project = "project-" + $(this).attr("id");
 
@@ -24,6 +25,7 @@ $(document).ready(function() {
       if ($(this).hasClass("clicked")) {
         console.log("not going to do anyhting else");
       } else {
+        $(this).find("span").fadeTo("slow", 1)
         $(this).removeClass("active");
         $("#" + project).toggleClass("active hidden");
         $(".base-project").show();

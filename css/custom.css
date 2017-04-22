@@ -127,7 +127,20 @@ margin: 0 25px;
   max-height: 450px;
 }
 
-
+.copy {
+  color: white;
+  position: relative;
+  left: 125px;
+  bottom: 27px;
+}
+.copy > a {
+  color: white;
+  text-decoration: underline;
+}
+.copy > a:hover {
+  color: white;
+  text-decoration: underline;
+}
 
 h5 {
   font-size: 1.1em !important;
