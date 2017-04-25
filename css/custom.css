@@ -92,6 +92,9 @@ section.work-links > h5 {
 .base-project {
   position:relative;
 }
+.base-project >a:last-child {
+  margin-bottom: 35%;
+}
 .base-filament {
   max-height: 300px;
   position: relative;
@@ -110,7 +113,7 @@ section.work-links > h5 {
 }
 
 .project-header {
-margin: 0 25px;
+padding: 0 25px;
 }
 .project-header > h5 {
   display: inline-block;
