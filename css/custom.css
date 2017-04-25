@@ -131,6 +131,7 @@ padding: 0 25px;
 }
 
 .copy {
+  display: inline-block;
   color: white;
   position: relative;
   left: 125px;
