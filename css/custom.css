@@ -90,7 +90,7 @@ section.work-links > h5 {
 
 
 .base-project {
-  position:relative;
+  /*position:relative;*/
 }
 .base-project >a:last-child > img{
   margin-bottom: 35%;
@@ -101,16 +101,115 @@ section.work-links > h5 {
   left: 50%;
 }
 .base-charcuterie {
-  max-height: 300px;
-  bottom: 50px;
+  max-height: 350px;
+  /*top: 15em;*/
   position: relative;
 }
 .base-polygon {
-  max-height: 300px;
-  /*bottom: 150px;*/
-  left: 40%;
+  max-height: 350px;
   position: relative;
+  /*float: right;*/
+  /*bottom: 200px;*/
+  /*left: 40%;*/
+  /*float*/
 }
+
+.base-sfu {
+  max-height: 350px;
+  /*position: relative;*/
+  /*bottom: 300px;*/
+}
+
+.base-redbull {
+  max-height: 500px;
+}
+.base-original {
+  max-height: 500px;
+  margin: 0 auto;
+}
+.base-feuilleton {
+  max-height: 400px;
+}
+.base-editions {
+  max-height: 700px;
+  float: right;
+}
+
+.c1 {
+  max-height: 150px;
+}
+.c2 {
+  max-height: 350px;
+}
+.c3 {
+  max-height: 350px;
+  /*position: relative;*/
+  /*bottom: 50px;*/
+}
+.c4 {
+  max-height: 350px;
+}
+.c2 {
+}
+.c2 {
+}
+.c2 {
+}
+.c2 {
+}
+.c2 {
+}
+.c2 {
+}
+
+
+.sfu-img {
+  max-height: 250px;
+}
+.sfu-img-2 {
+  max-height: 250px;
+}
+.sfu-img-4 {
+  max-height: 250px;
+
+}
+
+.oc-img {
+  max-height: 300px;
+}
+.oc-img-1 {
+  max-height: 300px;
+  margin-top: 25px;
+}
+
+.rb-1 {
+  margin-top: 100px;
+}
+.rb-img {
+  max-height: 150px;
+}
+
+.feu-1 {
+  max-height: 300px;
+  margin-bottom: 100px;
+}
+.feu-2 {
+  max-height: 150px;
+}
+.feu-3 {
+  max-height: 200px;
+  margin-bottom: 100px;
+}
+
+.ed-1 {
+max-height: 400px;
+}
+.ed-2 {
+  max-height: 150px;
+  position: relative;
+  bottom: 100px;
+}
+
 
 .project-header {
 padding: 0 25px;
@@ -120,14 +219,18 @@ padding: 0 25px;
   color: white;
 }
 
-.project > a:last-child > img:last-child {
-  margin-bottom: 35%;
+.last {
+  margin-bottom: 500px;
 }
 
 /*filament*/
 
 .filament-1 {
-  max-height: 450px;
+  max-height: 250px;
+}
+.filament-2 {
+  margin-top: 50px;
+  max-height: 350px;
 }
 
 .copy {
