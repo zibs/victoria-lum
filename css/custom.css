@@ -221,6 +221,10 @@ padding: 0 25px;
   max-height: 350px;
 }
 
+.polygon-1 {
+  max-height: 450px;
+}
+
 .copy {
   display: inline-block;
   color: white;
@@ -241,7 +245,30 @@ h5 {
   font-size: 1.1em !important;
 }
 
+.mobile-projects {
+  background-color: black !important;
+}
 
+.contact-email {
+  cursor: pointer;
+}
+.email {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    .info {
+        padding: 0px !important;
+        padding-top: 25px !important;
+    }
+    .base-editions {
+      max-height: 700px;
+      float: none;
+    }
+    .base-project >a:last-child > img{
+      margin-bottom: 10%;
+    }
+}
 
 
 

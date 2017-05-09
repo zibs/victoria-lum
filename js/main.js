@@ -22,7 +22,6 @@ $(document).ready(function() {
     function() {
       var project = "project-" + $(this).attr("id");
       if ($(this).hasClass("clicked")) {
-        console.log("not going to do anyhting else");
       } else {
         $(this).find("span").fadeTo("slow", 1).stop(true, true)
         // $(this).removeClass("active");
@@ -32,3 +31,9 @@ $(document).ready(function() {
     }
   );
 });
+
+$(document).ready(function() {
+  $('.contact-email').click(function() {
+    $('.email').toggleClass('hidden')
+  })
+})
