@@ -89,9 +89,6 @@ section.work-links > h5 {
 }
 
 
-.base-project {
-  /*position:relative;*/
-}
 .base-project >a:last-child > img{
   margin-bottom: 35%;
 }
