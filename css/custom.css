@@ -93,113 +93,244 @@ section.work-links > h5 {
   margin-bottom: 35%;
 }
 .base-filament {
-  max-height: 300px;
+  max-height: 250px;
   position: relative;
-  left: 50%;
+  left: 49%;
+  bottom: 4px;
 }
 .base-charcuterie {
   max-height: 350px;
-  /*top: 15em;*/
   position: relative;
+  top: -20px;
 }
 .base-polygon {
   max-height: 350px;
   position: relative;
-  /*float: right;*/
-  /*bottom: 200px;*/
-  /*left: 40%;*/
+  float: right;
+  bottom: 125px;
+  right: -80%;
   /*float*/
 }
 
 .base-sfu {
-  max-height: 350px;
-  /*position: relative;*/
-  /*bottom: 300px;*/
+  max-height: 250px;
+  position: relative;
+  bottom: 100px;
+  left: 30%;
 }
 
 .base-redbull {
-  max-height: 500px;
+  max-height: 140px;
+  position: relative;
+  bottom: -30px;
+  left: 30%;
 }
 .base-original {
-  max-height: 500px;
+  max-height: 650px;
   margin: 0 auto;
+  position: relative;
+  padding-top: 10%;
+  left: 10%;
 }
 .base-feuilleton {
-  max-height: 400px;
+  max-height: 250px;
+  position: relative;
+  float:left;
+  left: 5%;
 }
 .base-editions {
-  max-height: 700px;
+  max-height: 800px;
   float: right;
+  padding-top: 100px;
 }
 
 .c1 {
   max-height: 150px;
+  position: relative;
+  left: 9em;
+  bottom: -20px;
 }
 .c2 {
   max-height: 350px;
+  position: relative;
+  left: -15em;
+  bottom: -120px;
 }
 .c3 {
-  max-height: 350px;
-  /*position: relative;*/
-  /*bottom: 50px;*/
+  max-height: 375px;
+  position: relative;
+  bottom: 100px;
+  left: -4em;
 }
 .c4 {
   max-height: 350px;
+  position: relative;
+  bottom: 100px;
+  left: -19em;
+}
+.c5 {
+  max-height: 375px;
+  position: relative;
+  bottom: 300px;
+}
+.c6 {
+  max-height: 375px;
+  position: relative;
+  bottom: 330px;
+}
+.c7 {
+  max-height: 375px;
+  position: relative;
+  bottom: 360px;
+}
+.c8 {
+  max-height: 375px;
+  position: relative;
+  bottom: 390px;
+}
+.c9 {
+  max-height: 375px;
+  position: relative;
+  bottom: 420px;
+}
+.c10 {
+  max-height: 390px;
+  position: relative;
+  bottom: 500px;
+  left: -0.5em;
 }
 
 
 .sfu-img {
   max-height: 350px;
+  position: relative;
+  left: 1em;
 }
 .sfu-img-2 {
   max-height: 350px;
+  position: relative;
+  left: 13em;
+  bottom: 250px;
+}
+.sfu-img-3 {
+  max-height: 320px;
+  position: relative;
+  bottom: 355px;
+  left: 2em;
 }
 .sfu-img-4 {
   max-height: 350px;
-
+  position: relative;
+  bottom: 325px;
 }
 
 .oc-img {
-  max-height: 300px;
+  max-height: 400px;
+  position: relative;
+  left: -5em;
 }
 .oc-img-1 {
   max-height: 300px;
+  margin-top: 20px;
+  position: relative;
+  left: -6em;
+  bottom: 100px;
+}
+.oc-img-2 {
+  max-height: 230px;
   margin-top: 25px;
+  position: relative;
+  left: 4em;
+  bottom: 230px;
+}
+.oc-img-3 {
+  max-height: 380px;
+  position: relative;
+  left: 15em;
+  bottom: 160px;
+}
+.oc-img-4 {
+  max-height: 320px;
+  position: relative;
+  left: 3em;
+  bottom: 100px;
+}
+.oc-img-5 {
+  max-height: 320px;
+  position: relative;
+  left: 3em;
+  bottom: 55px;
+}
+.oc-img-6 {
+  max-height: 320px;
+  position: relative;
+  left: 3em;
+  bottom: 25px;
+}
+.oc-img-7 {
+  max-height: 430px;
+  position: relative;
+  left: -1em;
+  bottom: 25px;
 }
 
 .rb-1 {
-  margin-top: 100px;
+  margin-top: 160px;
+  position: relative;
+  right: 0.75em;
+  max-height: 180px;
 }
 .rb-img {
-  max-height: 150px;
+  max-height: 165px;
+  position: relative;
+  bottom: -100px;
 }
 
 .feu-1 {
-  max-height: 300px;
-  margin-bottom: 100px;
+  max-height: 400px;
+  margin-top: 70px;
 }
 .feu-2 {
-  max-height: 150px;
+  max-height: 300px;
+  position: relative;
+  bottom: -75px;
+  left: -4em;
 }
 .feu-3 {
-  max-height: 200px;
-  margin-bottom: 100px;
+  max-height: 250px;
+  bottom: 90px;
+  position: relative;
+  left: 5em;
+}
+.feu-4 {
+  max-height: 525px;
+  bottom: -30px;
+  position: relative;
+  left: 3em;
 }
 
 .ed-1 {
-max-height: 400px;
+  max-height: 575px;
+  position: relative;
+  left: 2em;
 }
 .ed-2 {
-  max-height: 150px;
+  max-height: 400px;
   position: relative;
   bottom: 100px;
+  left: 3em;
 }
-
+.ed-3 {
+  max-height: 200px;
+  position: relative;
+  bottom: 160px;
+  left: 1em;
+}
 
 .project-header {
-padding: 0 25px;
+  padding: 0 25px;
 }
-.project-header > h5 {
+.project-header > p {
   display: inline-block;
   color: white;
 }
@@ -212,14 +343,33 @@ padding: 0 25px;
 
 .filament-1 {
   max-height: 250px;
+  padding-top: 50px;
 }
 .filament-2 {
-  margin-top: 50px;
-  max-height: 350px;
+  max-height: 500px;
+  position: relative;
+  bottom: 75px;
 }
 
 .polygon-1 {
-  max-height: 450px;
+  max-height: 400px;
+  position:relative;
+  left: 10em;
+}
+.polygon-2 {
+  max-height: 400px;
+  position:relative;
+  left: -10em;
+}
+.polygon-3 {
+  max-height: 400px;
+  position:relative;
+  left: -5em;
+}
+.polygon-4 {
+  max-height: 400px;
+  position:relative;
+  left: 10em;
 }
 
 .copy {
@@ -227,7 +377,6 @@ padding: 0 25px;
   color: white;
   position: relative;
   left: 125px;
-  bottom: 27px;
 }
 .copy > a {
   color: white;
@@ -239,7 +388,18 @@ padding: 0 25px;
 }
 
 h5 {
-  font-size: 1.1em !important;
+  font-size: 1.0em !important;
+}
+.pdf > a {
+  cursor: pointer;
+  color: white;
+}
+.pdf > a:hover {
+  color: white;
+}
+
+.pdf > a:visited {
+  color: white;
 }
 
 .mobile-projects {
@@ -252,11 +412,11 @@ h5 {
 }
 .email {
   right: 25px;
-  top: 65px;
+  top: 70px;
   z-index: 1;
 }
 
-.project-header > h5 {
+.project-header > p {
   position: fixed;
 }
 
