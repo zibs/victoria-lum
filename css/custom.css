@@ -29,6 +29,7 @@ body {
           -ms-animation: fadein 1s;
            -o-animation: fadein 1s;
               animation: fadein 1s;
+              overflow-x: hidden;
 }
 
 
@@ -402,6 +403,18 @@ h5 {
   color: white;
 }
 
+p > a {
+  cursor: pointer;
+  color: grey;
+}
+p > a:hover {
+  color: grey;
+}
+
+p > a:visited {
+  color: grey;
+}
+
 .mobile-projects {
   background-color: black !important;
 }
@@ -420,6 +433,13 @@ h5 {
   position: fixed;
 }
 
+p.copy {
+  position: absolute;
+  bottom: 0;
+  color: black;
+  left: 25px;
+}
+
 @media only screen and (max-width: 500px) {
     .info {
         padding: 0px !important;
@@ -428,6 +448,16 @@ h5 {
     .base-editions {
       max-height: 700px;
       float: none;
+    }
+    .base-polygon {
+      max-height: 350px;
+      position: relative;
+      /*float: right;*/
+      bottom: 125px;
+      left: 22%;
+      margin-top: 65px;
+      /*right: -80%;*/
+      /*float*/
     }
     .base-project >a:last-child > img{
       margin-bottom: 10%;
