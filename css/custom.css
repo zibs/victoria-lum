@@ -105,11 +105,11 @@ section.work-links > h5 {
   top: -20px;
 }
 .base-polygon {
-  max-height: 350px;
+  max-height: 400px;
   position: relative;
   float: right;
-  bottom: 125px;
-  right: -80%;
+  bottom: 155px;
+  right: -70%;
   /*float*/
 }
 
@@ -345,17 +345,25 @@ section.work-links > h5 {
 .filament-1 {
   max-height: 250px;
   padding-top: 50px;
+  position: relative;
+  left: -7em;
 }
 .filament-2 {
+  max-height: 310px;
+  position: relative;
+  bottom: -50px;
+  left: 1.25em;
+}
+.filament-3 {
   max-height: 500px;
   position: relative;
-  bottom: 75px;
+  bottom: 550px;
+  left: 8.5em;
 }
-
 .polygon-1 {
-  max-height: 400px;
+  max-height: 425px;
   position:relative;
-  left: 10em;
+  left: 5em;
 }
 .polygon-2 {
   max-height: 400px;
@@ -363,14 +371,15 @@ section.work-links > h5 {
   left: -10em;
 }
 .polygon-3 {
-  max-height: 400px;
+  max-height: 520px;
   position:relative;
-  left: -5em;
+  left: -2em;
 }
 .polygon-4 {
-  max-height: 400px;
+  max-height: 500px;
   position:relative;
-  left: 10em;
+  left: 5em;
+  bottom: 60px;
 }
 
 .copy {
@@ -394,25 +403,28 @@ h5 {
 .pdf > a {
   cursor: pointer;
   color: white;
+  text-decoration: none;
 }
 .pdf > a:hover {
   color: white;
+  text-decoration: none;
 }
 
 .pdf > a:visited {
   color: white;
+  text-decoration: none;
 }
 
 p > a {
   cursor: pointer;
-  color: grey;
+  color: #292b2c;
 }
 p > a:hover {
-  color: grey;
+  text-decoration: underline;
 }
 
 p > a:visited {
-  color: grey;
+  color: #292b2c;
 }
 
 .mobile-projects {
@@ -433,7 +445,7 @@ p > a:visited {
   position: fixed;
 }
 
-p.copy {
+p.copyright {
   position: absolute;
   bottom: 0;
   color: black;
