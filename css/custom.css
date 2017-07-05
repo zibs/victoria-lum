@@ -453,6 +453,7 @@ p.copyright {
 }
 
 @media only screen and (max-width: 500px) {
+
     .info {
         padding: 0px !important;
         padding-top: 25px !important;
@@ -474,6 +475,7 @@ p.copyright {
     .base-project >a:last-child > img{
       margin-bottom: 10%;
     }
+
 }
 
 
