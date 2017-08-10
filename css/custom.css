@@ -124,6 +124,7 @@ section.work-links > h5 {
 .base-sfu {
     max-height: 290px;
     position: relative;
+    padding-top: 45px;
     bottom: 100px;
     left: 30%;
 }
@@ -164,12 +165,12 @@ section.work-links > h5 {
     max-height: 350px;
     position: relative;
     left: -15em;
-    bottom: -120px;
+    /*bottom: -120px;*/
 }
 .c3 {
     max-height: 375px;
     position: relative;
-    bottom: 100px;
+    bottom: 50px;
     left: -4em;
 }
 .c4 {
@@ -246,7 +247,7 @@ section.work-links > h5 {
     bottom: 100px;
 }
 .oc-img-2 {
-    max-height: 230px;
+    max-height: 250px;
     margin-top: 25px;
     position: relative;
     left: 4em;
@@ -259,9 +260,9 @@ section.work-links > h5 {
     bottom: 160px;
 }
 .oc-img-4 {
-    max-height: 320px;
+    max-height: 470px;
     position: relative;
-    left: 3em;
+    left: 0em;
     bottom: 100px;
 }
 .oc-img-5 {
@@ -296,7 +297,7 @@ section.work-links > h5 {
 }
 
 .feu-1 {
-    max-height: 400px;
+    max-height: 360px;
     margin-top: 70px;
 }
 .feu-2 {
@@ -500,36 +501,36 @@ p.copyright {
 }
 
 @media only screen and (min-width: 1576px) {
-  .base-polygon {
-      max-height: 400px;
-      position: relative;
-      /*float: none;*/
-      bottom: 50px;
-      left: 35%;
-      /*float*/
-  }
+    .base-polygon {
+        max-height: 400px;
+        position: relative;
+        /*float: none;*/
+        bottom: 50px;
+        left: 35%;
+        /*float*/
+    }
 
-  .base-sfu {
-      max-height: 290px;
-      position: relative;
-      /*bottom: 0px;*/
-      left: 10%;
-  }
+    .base-sfu {
+        max-height: 290px;
+        position: relative;
+        /*bottom: 0px;*/
+        left: 10%;
+    }
 }
 
 @media only screen and (min-width: 1920px) {
     img {
-      max-height: 550px !important;
-      position: relative;
-      top: 0px !important;
-      left: 0px !important;
-      bottom: 0px !important;
-      display: block !important;
-      margin-right: auto !important;
-      margin-left: auto !important;
-      float: none !important;
-      padding-bottom: 0px !important;
-      padding-top: 0px !important;
+        max-height: 550px !important;
+        position: relative;
+        top: 0px !important;
+        left: 0px !important;
+        bottom: 0px !important;
+        display: block !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        float: none !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
     }
 }
 
@@ -569,6 +570,19 @@ p.copyright {
 
     .base-redbull {
         max-height: 240px;
+        position: relative;
+        bottom: 0px;
+        left: 0%;
+    }
+    .base-redbull-mobile {
+        max-height: 150px;
+        position: relative;
+        bottom: 0px;
+        left: 0%;
+    }
+
+    .base-feuilleton-mobile {
+        max-height: 200px;
         position: relative;
         bottom: 0px;
         left: 0%;
