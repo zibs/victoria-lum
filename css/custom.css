@@ -18,7 +18,7 @@
  *
  * © 2016 MyFonts Inc
 */
-@import url("//hello.myfonts.net/count/3255da");
+@import url('//hello.myfonts.net/count/3255da');
 @font-face {
     font-family: 'AlbertusMTPro';
     src: url('webfonts/3255DA_0_0.eot');
@@ -366,7 +366,7 @@ section.work-links > h5 {
     max-height: 500px;
     position: relative;
     bottom: 550px;
-    left: 3.0em;
+    left: 3em;
 }
 .polygon-1 {
     max-height: 425px;
@@ -407,7 +407,7 @@ section.work-links > h5 {
 }
 
 h5 {
-    font-size: 1.0em !important;
+    font-size: 1em !important;
 }
 .pdf {
     z-index: 10;
@@ -456,6 +456,7 @@ h5 {
 }
 
 .mobile-projects {
+    position: relative;
     background-color: black !important;
 }
 
@@ -466,12 +467,16 @@ h5 {
 }
 .email {
     right: 25px;
-    top: 70px;
+    padding-top: 25px;
     z-index: 1;
 }
 
 .project-header > p {
     position: fixed;
+}
+.project-header.mobile-header > p {
+    margin-top: 15px;
+    position: absolute;
 }
 
 p.copyright {
@@ -500,36 +505,36 @@ p.copyright {
 }
 
 @media only screen and (min-width: 1576px) {
-  .base-polygon {
-      max-height: 400px;
-      position: relative;
-      /*float: none;*/
-      bottom: 50px;
-      left: 35%;
-      /*float*/
-  }
+    .base-polygon {
+        max-height: 400px;
+        position: relative;
+        /*float: none;*/
+        bottom: 50px;
+        left: 35%;
+        /*float*/
+    }
 
-  .base-sfu {
-      max-height: 290px;
-      position: relative;
-      /*bottom: 0px;*/
-      left: 10%;
-  }
+    .base-sfu {
+        /*max-height: 290px;*/
+        /*position: relative;*/
+        /*bottom: 0px;*/
+        left: 10%;
+    }
 }
 
 @media only screen and (min-width: 1920px) {
     img {
-      max-height: 550px !important;
-      position: relative;
-      top: 0px !important;
-      left: 0px !important;
-      bottom: 0px !important;
-      display: block !important;
-      margin-right: auto !important;
-      margin-left: auto !important;
-      float: none !important;
-      padding-bottom: 0px !important;
-      padding-top: 0px !important;
+        max-height: 550px !important;
+        position: relative;
+        top: 0px !important;
+        left: 0px !important;
+        bottom: 0px !important;
+        display: block !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        float: none !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
     }
 }
 
