@@ -40,7 +40,7 @@ body {
 }
 
 .header {
-    max-width: 600px;
+    max-width: 550px;
 }
 
 .header > h5 > a {
@@ -990,7 +990,7 @@ p.copyright {
         max-height: 350px;
         position: relative;
         top: 250px;
-        left: -55em;
+        left: 0em;
     }
     .c5 {
         max-height: 375px;
@@ -1047,8 +1047,8 @@ p.copyright {
     .c14 {
         max-height: 390px;
         position: relative;
-        top: 990px;
-        left: -25em;
+        top: 50px;
+        left: 20em;
     }
     .c15 {
         max-height: 450px;
@@ -1059,26 +1059,26 @@ p.copyright {
     .c16 {
         max-height: 390px;
         position: relative;
-        top: 945px;
-        left: -21em;
+        top: 0px;
+        left: 0em;
     }
     .c17 {
         max-height: 390px;
         position: relative;
-        top: 820px;
-        left: 26em;
+        top: 0px;
+        left: 0em;
     }
     .c18 {
         max-height: 390px;
         position: relative;
-        top: 1200px;
-        left: -6.75em;
+        top: 0px;
+        left: 0em;
     }
     .c19 {
         max-height: 390px;
         position: relative;
-        top: 1200px;
-        left: 26em;
+        top: 0px;
+        left: 0em;
     }
     .oc-img-1 {
         max-height: 359px;
