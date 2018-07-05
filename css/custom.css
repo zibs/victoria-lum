@@ -1,0 +1,1245 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3298778, 2016-10-21T20:03:55-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: AlbertusMTPro by Monotype
+ * URL: http://www.myfonts.com/fonts/mti/albertus/pro-roman/
+ * Copyright: Font software (c) 1992 Adobe Systems Incorporated. Typeface designs (c) 1992 The Monotype Corporation. All rights reserved.
+ * Licensed pageviews: 250,000
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3298778
+ *
+ * © 2016 MyFonts Inc
+*/
+@import url('//hello.myfonts.net/count/3255da');
+@font-face {
+    font-family: 'AlbertusMTPro';
+    src: url('webfonts/3255DA_0_0.eot');
+    src: url('webfonts/3255DA_0_0.eot?#iefix') format('embedded-opentype'),
+        url('webfonts/3255DA_0_0.woff2') format('woff2'),
+        url('webfonts/3255DA_0_0.woff') format('woff'),
+        url('webfonts/3255DA_0_0.ttf') format('truetype');
+}
+
+body {
+    font-family: AlbertusMTPro !important;
+    -webkit-animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -ms-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation: fadein 1s;
+    overflow-x: hidden;
+    letter-spacing: 0.4px;
+}
+
+.header {
+    max-width: 550px;
+}
+
+.header > h5 > a {
+    color: black;
+}
+.header > h5 > a:hover {
+    color: black;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.info {
+    background-color: white;
+    padding-top: 44px;
+}
+.projects {
+    background-color: black;
+    padding-top: 44px;
+}
+.about {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.about > p {
+    font-size: 1em;
+    margin-bottom: 3em;
+    margin-right: 15px;
+}
+
+section.header {
+    margin-bottom: 10%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+section.work {
+    margin-bottom: 10%;
+    margin-left: 15px;
+}
+section.work > h5 {
+    line-height: 2em;
+}
+section.about > h5:first-child {
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+section.work-links > h5 {
+    line-height: 2em;
+}
+.project-link {
+    cursor: pointer;
+}
+
+.active {
+    /*background-color: yellow;*/
+    /*display: flex !important;*/
+}
+.hidden {
+    display: none;
+}
+.project {
+}
+
+.base-project > a:last-child > img {
+    margin-bottom: 35%;
+}
+.base-bombhead {
+    max-height: 400px;
+    position: relative;
+    left: -12%;
+    top: -65px;
+}
+.base-capture {
+    max-height: 350px;
+    position: relative;
+    left: 40%;
+    top: -275px;
+}
+.base-charcuterie {
+    max-height: 350px;
+    position: relative;
+    left: 8%;
+    top: -300px;
+}
+.base-filament {
+    max-height: 250px;
+    position: relative;
+    left: 25%;
+    top: -140px;
+}
+.base-polygon {
+    max-height: 400px;
+    position: relative;
+    float: right;
+    bottom: 155px;
+    right: -54%;
+    /*float*/
+}
+.base-sfu {
+    max-height: 320px;
+    position: relative;
+    padding-top: 45px;
+    bottom: 300px;
+    left: 5%;
+}
+.base-redbull {
+    max-height: 140px;
+    position: relative;
+    bottom: 220px;
+    left: 30%;
+}
+.base-original {
+    max-height: 650px;
+    margin: 0 auto;
+    position: relative;
+    top: -200px;
+    left: 7%;
+}
+.base-feuilleton {
+    max-height: 270px;
+    position: relative;
+    float: left;
+    left: 10%;
+    top: -150px;
+}
+.base-editions {
+    max-height: 850px;
+    float: right;
+    top: -20px;
+}
+
+.c1 {
+    max-height: 150px;
+    position: relative;
+    left: 6em;
+    bottom: -20px;
+}
+.c2 {
+    max-height: 350px;
+    position: relative;
+    left: -15em;
+    top: 20px;
+}
+.c3 {
+    max-height: 375px;
+    position: relative;
+    bottom: 50px;
+    left: -3em;
+}
+.c4 {
+    max-height: 350px;
+    position: relative;
+    bottom: 100px;
+    left: -18em;
+}
+.c5 {
+    max-height: 375px;
+    position: relative;
+    bottom: 300px;
+}
+.c6 {
+    max-height: 375px;
+    position: relative;
+    bottom: 330px;
+}
+.c7 {
+    max-height: 375px;
+    position: relative;
+    bottom: 360px;
+}
+.c8 {
+    max-height: 375px;
+    position: relative;
+    bottom: 390px;
+    left: -25em;
+}
+.c9 {
+    max-height: 375px;
+    position: relative;
+    bottom: 420px;
+    left: -6em;
+}
+.c10 {
+    max-height: 390px;
+    position: relative;
+    bottom: 500px;
+    left: -0.5em;
+}
+.c11 {
+    max-height: 390px;
+    position: relative;
+    bottom: 500px;
+    left: 10em;
+}
+.c12 {
+    max-height: 390px;
+    position: relative;
+    top: -500px;
+    left: 10em;
+}
+.c13 {
+    max-height: 390px;
+    position: relative;
+    bottom: 500px;
+    left: 10em;
+}
+.c14 {
+    max-height: 390px;
+    position: relative;
+    bottom: 500px;
+    left: -0.5em;
+}
+.c15 {
+    max-height: 390px;
+    position: relative;
+    bottom: 500px;
+    right: -20em;
+}
+.c16 {
+    max-height: 390px;
+    position: relative;
+    bottom: 835px;
+    left: -0.5em;
+}
+.c17 {
+    max-height: 390px;
+    position: relative;
+    bottom: 820px;
+    left: 14em;
+}
+.c18 {
+    max-height: 390px;
+    position: relative;
+    bottom: 800px;
+    left: 14em;
+}
+.c19 {
+    max-height: 390px;
+    position: relative;
+    bottom: 770px;
+    left: 14em;
+}
+.sfu-img {
+    max-height: 350px;
+    position: relative;
+    left: 1em;
+}
+.sfu-img-2 {
+    max-height: 350px;
+    position: relative;
+    left: 13em;
+    bottom: 250px;
+}
+.sfu-img-3 {
+    max-height: 320px;
+    position: relative;
+    bottom: 355px;
+    left: 2em;
+}
+.sfu-img-4 {
+    max-height: 350px;
+    position: relative;
+    bottom: 325px;
+}
+.oc-img-1 {
+    max-height: 320px;
+    margin-top: 20px;
+    position: relative;
+    left: 4em;
+    top: 20px;
+}
+.oc-img-2 {
+    max-height: 280px;
+    margin-top: 25px;
+    position: relative;
+    left: -4em;
+    bottom: 50px;
+}
+.oc-img-3 {
+    max-height: 380px;
+    position: relative;
+    left: 15em;
+    bottom: 160px;
+}
+.oc-img-4 {
+    max-height: 470px;
+    position: relative;
+    left: 0em;
+    bottom: 100px;
+}
+.oc-img-5 {
+    max-height: 320px;
+    position: relative;
+    left: 3em;
+    bottom: 55px;
+}
+.oc-img-6 {
+    max-height: 320px;
+    position: relative;
+    left: 3em;
+    bottom: 25px;
+}
+.oc-img-7 {
+    max-height: 430px;
+    position: relative;
+    left: -1em;
+    bottom: 25px;
+}
+
+.rb-1 {
+    margin-top: 160px;
+    position: relative;
+    right: 0.75em;
+    max-height: 180px;
+}
+.rb-img {
+    max-height: 165px;
+    position: relative;
+    bottom: -100px;
+}
+
+.feu-1 {
+    max-height: 320px;
+    margin-top: 70px;
+}
+.feu-2 {
+    max-height: 250px;
+    position: relative;
+    bottom: -75px;
+    left: 3em;
+}
+
+.feu-3 {
+    max-height: 300px;
+    position: relative;
+    top: 150px;
+    left: 1em;
+}
+
+.feu-4 {
+    max-height: 455px;
+    margin-top: 250px;
+    position: relative;
+    left: -2em;
+}
+.ed-1 {
+    max-height: 575px;
+    position: relative;
+    left: 2em;
+}
+.ed-2 {
+    max-height: 400px;
+    position: relative;
+    bottom: 100px;
+    left: 3em;
+}
+.ed-3 {
+    max-height: 200px;
+    position: relative;
+    bottom: 160px;
+    left: 3em;
+}
+.bomb-1 {
+    max-height: 475px;
+    position: relative;
+    bottom: 10px;
+    left: -5.5em;
+}
+.bomb-2 {
+    max-height: 475px;
+    position: relative;
+    bottom: 70px;
+    left: -1em;
+}
+.bomb-3 {
+    max-height: 475px;
+    position: relative;
+    bottom: 140px;
+    left: -1em;
+}
+.bomb-4 {
+    max-height: 475px;
+    position: relative;
+    bottom: 220px;
+    left: -1em;
+}
+.bomb-5 {
+    max-height: 475px;
+    position: relative;
+    bottom: 300px;
+    left: -1em;
+}
+.bomb-6 {
+    max-height: 475px;
+    position: relative;
+    bottom: 380px;
+    left: -1em;
+}
+.bomb-7 {
+    max-height: 475px;
+    position: relative;
+    bottom: 460px;
+    left: 3.25em;
+}
+
+.project-header {
+    padding: 0 25px;
+}
+.project-header > p {
+    display: inline-block;
+    color: white;
+}
+
+.last {
+    margin-bottom: 500px;
+}
+
+/*filament*/
+
+.filament-1 {
+    max-height: 250px;
+    padding-top: 50px;
+    position: relative;
+    left: -7em;
+}
+.filament-2 {
+    max-height: 310px;
+    position: relative;
+    bottom: -50px;
+    left: -4.25em;
+}
+.filament-3 {
+    max-height: 500px;
+    position: relative;
+    bottom: 550px;
+    left: 3em;
+}
+.polygon-1 {
+    max-height: 425px;
+    position: relative;
+    left: 5em;
+}
+.polygon-2 {
+    max-height: 400px;
+    position: relative;
+    left: -10em;
+}
+.polygon-3 {
+    max-height: 520px;
+    position: relative;
+    left: -2em;
+}
+.polygon-4 {
+    max-height: 500px;
+    position: relative;
+    left: 5em;
+    bottom: 60px;
+}
+.capture-1 {
+    max-height: 450px;
+    position: relative;
+    left: -2em;
+    bottom: 30px;
+}
+.capture-2 {
+    max-height: 450px;
+    position: relative;
+    left: -2em;
+    bottom: 40px;
+}
+.capture-3 {
+    max-height: 470px;
+    position: relative;
+    left: -3.5em;
+    bottom: 60px;
+}
+.capture-4 {
+    max-height: 420px;
+    position: relative;
+    left: -1.75em;
+    bottom: 60px;
+}
+.capture-5 {
+    max-height: 450px;
+    position: relative;
+    left: -3em;
+    bottom: 40px;
+}
+.capture-6 {
+    max-height: 450px;
+    position: relative;
+    left: -4em;
+    bottom: 80px;
+}
+.capture-7 {
+    max-height: 450px;
+    position: relative;
+    left: 0.75em;
+    bottom: 60px;
+}
+.capture-8 {
+    max-height: 450px;
+    position: relative;
+    left: 0.75em;
+    top: -550px;
+}
+.copy {
+    display: inline-block;
+    color: white;
+    position: relative;
+    left: 100px;
+    max-width: 510px;
+}
+.copy > a {
+    color: white;
+    text-decoration: underline;
+}
+.copy > a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+h5 {
+    font-size: 1em !important;
+}
+.pdf {
+    z-index: 10;
+}
+.pdf > a {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.pdf > a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.pdf > a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.header > p > a {
+    cursor: pointer;
+    color: #8a8c8e !important;
+}
+
+.header > p > a:hover {
+    text-decoration: underline;
+    color: #8a8c8e !important;
+}
+
+.header > p > a:visited {
+    color: #8a8c8e !important;
+}
+
+.project-header > p > a {
+    cursor: pointer;
+    color: #fff !important;
+}
+
+.project-header > p > a:hover {
+    text-decoration: underline;
+    color: #fff !important;
+}
+
+.project-header > p > a:visited {
+    color: #fff !important;
+}
+
+.mobile-projects {
+    position: relative;
+    background-color: black !important;
+}
+
+.contact-email {
+    cursor: pointer;
+    right: 25px;
+    z-index: 10;
+}
+.email {
+    right: 25px;
+    padding-top: 25px;
+    z-index: 1;
+}
+
+.project-header > p {
+    position: fixed;
+}
+.project-header.mobile-header > p {
+    margin-top: 15px;
+    position: absolute;
+}
+
+p.copyright {
+    position: absolute;
+    bottom: 0;
+    color: black;
+    left: 25px;
+}
+
+@media only screen and (width: 1024px) {
+    .base-polygon {
+        max-height: 430px;
+        position: relative;
+        /*float: none;*/
+        bottom: 150px;
+        left: 16%;
+        /*float*/
+    }
+    .copy {
+        display: inline-block;
+        color: white;
+        position: relative;
+        left: 80px;
+        max-width: 395px;
+    }
+    .base-capture {
+        max-height: 420px;
+        float: none;
+        top: -115px;
+        padding-bottom: 50px;
+        left: 10%;
+    }
+    .base-charcuterie {
+        max-height: 350px;
+        position: relative;
+        top: -200px;
+        left: -5%;
+    }
+    .base-filament {
+        top: -240px;
+        max-height: 220px;
+        position: relative;
+        padding-left: 260px;
+    }
+    .base-sfu {
+        max-height: 320px;
+        position: relative;
+        bottom: 0px;
+        left: 8%;
+        top: -150px;
+    }
+    .base-redbull {
+        max-height: 140px;
+        position: relative;
+        bottom: 80px;
+        left: 30%;
+    }
+    .base-original {
+        max-height: 550px;
+        margin: 0 auto;
+        position: relative;
+        left: 0%;
+        top: -75px;
+    }
+    .base-feuilleton {
+        max-height: 250px;
+        position: relative;
+        float: none;
+        left: 10%;
+        top: -20px;
+    }
+    .base-editions {
+        max-height: 800px;
+        float: none;
+        padding-top: 100px;
+        padding-left: 3%;
+    }
+    .filament-1 {
+        max-height: 250px;
+        padding-top: 50px;
+        position: relative;
+        left: -4em;
+    }
+    .filament-2 {
+        max-height: 265px;
+        position: relative;
+        left: -3.1em;
+    }
+    .c2 {
+        max-height: 330px;
+        position: relative;
+        left: -20em;
+        top: 40px;
+    }
+    .c3 {
+        max-height: 320px;
+        position: relative;
+        top: -20px;
+        left: 11em;
+    }
+    .c4 {
+        max-height: 360px;
+        position: relative;
+        top: -50px;
+        left: -22em;
+    }
+    .c5 {
+        max-height: 330px;
+        position: relative;
+        top: -100px;
+        left: -7em;
+    }
+    .c6 {
+        max-height: 330px;
+        position: relative;
+        top: -100px;
+        left: -7em;
+    }
+    .c7 {
+        max-height: 330px;
+        position: relative;
+        top: -100px;
+        left: -7em;
+    }
+    .c8 {
+        max-height: 330px;
+        position: relative;
+        top: -150px;
+        left: -20em;
+    }
+    .c9 {
+        max-height: 330px;
+        position: relative;
+        top: -5px;
+        left: -4em;
+    }
+    .c11 {
+        max-height: 330px;
+        position: relative;
+        top: -400px;
+        left: 5em;
+    }
+    .c12 {
+        max-height: 330px;
+        position: relative;
+        top: -400px;
+        left: 5em;
+    }
+    .c13 {
+        max-height: 330px;
+        position: relative;
+        top: -400px;
+        left: 5em;
+    }
+    .c14 {
+        max-height: 330px;
+        position: relative;
+        top: -350px;
+        left: -5em;
+    }
+    .c15 {
+        max-height: 450px;
+        position: relative;
+        top: -650px;
+        right: -11em;
+    }
+    .c16 {
+        max-height: 330px;
+        position: relative;
+        top: -870px;
+        left: -5em;
+    }
+    .c17 {
+        max-height: 330px;
+        position: relative;
+        top: -850px;
+        left: 5em;
+    }
+    .c18 {
+        max-height: 330px;
+        position: relative;
+        top: -850px;
+        left: 5em;
+    }
+    .c19 {
+        max-height: 330px;
+        position: relative;
+        top: -850px;
+        left: 5em;
+    }
+    .polygon-2 {
+        max-height: 400px;
+        position: relative;
+        left: -6em;
+    }
+    .polygon-3 {
+        max-height: 360px;
+        position: relative;
+        left: -1em;
+    }
+    .polygon-4 {
+        max-height: 440px;
+        position: relative;
+        left: 1em;
+    }
+    .oc-img-1 {
+        max-height: 360px;
+        margin-top: 20px;
+        position: relative;
+        left: -5em;
+        bottom: 20px;
+    }
+    .oc-img-2 {
+        max-height: 300px;
+        margin-top: 25px;
+        position: relative;
+        left: -5em;
+        bottom: 50px;
+    }
+    .oc-img-3 {
+        max-height: 350px;
+        position: relative;
+        left: 8em;
+        bottom: 100px;
+    }
+    .ed-1 {
+        max-height: 575px;
+        position: relative;
+        left: -2em;
+    }
+    .ed-2 {
+        max-height: 400px;
+        position: relative;
+        bottom: 100px;
+        left: 1em;
+    }
+    .ed-3 {
+        max-height: 200px;
+        position: relative;
+        bottom: 160px;
+        left: 0em;
+    }
+    .capture-3 {
+        max-height: 470px;
+        position: relative;
+        left: -2.75em;
+        bottom: 60px;
+    }
+    .capture-4 {
+        max-height: 380px;
+        position: relative;
+        left: -1em;
+        bottom: 60px;
+    }
+    .capture-6 {
+        max-height: 410px;
+        position: relative;
+        left: -2.5em;
+        bottom: 60px;
+    }
+}
+
+@media only screen and (min-width: 1576px) {
+    .base-polygon {
+        max-height: 400px;
+        position: relative;
+        /*float: none;*/
+        bottom: 50px;
+        left: 35%;
+        /*float*/
+    }
+
+    .base-sfu {
+        max-height: 290px;
+        position: relative;
+        /*bottom: 0px;*/
+        left: 10%;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .base-filament {
+        top: -100px;
+        max-height: 280px;
+        position: relative;
+        left: 60%;
+        bottom: 0px;
+    }
+    .base-sfu {
+        max-height: 320px;
+        position: relative;
+        bottom: 0px;
+        left: 2%;
+        top: -120px;
+    }
+    .base-polygon {
+        max-height: 500px;
+        position: relative;
+        float: none;
+        bottom: 0px;
+        left: -40%;
+        top: -60px;
+        /*float*/
+    }
+    .base-redbull {
+        max-height: 170px;
+        position: relative;
+        bottom: -20px;
+        left: 10%;
+    }
+    .base-original {
+        max-height: 550px;
+        margin: 0 auto;
+        position: relative;
+        left: 15%;
+        top: -10px;
+    }
+    .base-editions {
+        max-height: 750px;
+        position: relative;
+        top: 150px;
+        right: 10%;
+    }
+    .bomb-7 {
+        max-height: 475px;
+        position: relative;
+        bottom: 460px;
+        left: 5em;
+    }
+    .capture-2 {
+        max-height: 450px;
+        position: relative;
+        left: -1em;
+        bottom: 40px;
+    }
+    .capture-6 {
+        max-height: 460px;
+        position: relative;
+        left: -3.5em;
+        bottom: 40px;
+    }
+    .capture-7 {
+        max-height: 460px;
+        position: relative;
+        left: 3em;
+        bottom: 40px;
+    }
+    .capture-8 {
+        max-height: 460px;
+        position: relative;
+        left: 3em;
+        bottom: 40px;
+    }
+    .c3 {
+        max-height: 370px;
+        position: relative;
+        top: 55px;
+        left: 0em;
+    }
+    .c4 {
+        max-height: 370px;
+        position: relative;
+        top: 50px;
+        left: -25em;
+    }
+    .c5 {
+        max-height: 375px;
+        position: relative;
+        top: 20px;
+        left: -15em;
+    }
+    .c6 {
+        max-height: 375px;
+        position: relative;
+        top: 20px;
+        left: -18.5em;
+    }
+    .c7 {
+        max-height: 375px;
+        position: relative;
+        top: 0px;
+        left: -1em;
+    }
+    .c8 {
+        max-height: 375px;
+        position: relative;
+        top: 270px;
+        left: -5em;
+    }
+    .c9 {
+        max-height: 375px;
+        position: relative;
+        top: 270px;
+        left: -10em;
+    }
+    .c10 {
+        max-height: 450px;
+        position: relative;
+        top: 310px;
+        left: -0.5em;
+    }
+    .c11 {
+        max-height: 390px;
+        position: relative;
+        top: 350px;
+        left: 5em;
+    }
+    .c12 {
+        max-height: 400px;
+        position: relative;
+        top: 350px;
+        left: -2em;
+    }
+    .c13 {
+        max-height: 390px;
+        position: relative;
+        top: 300px;
+        left: 18em;
+    }
+    .c14 {
+        max-height: 390px;
+        position: relative;
+        top: 400px;
+        left: -35em;
+    }
+    .c15 {
+        max-height: 450px;
+        position: relative;
+        top: 400px;
+        right: -5em;
+    }
+    .c16 {
+        max-height: 390px;
+        position: relative;
+        top: 100px;
+        left: 15em;
+    }
+    .c17 {
+        max-height: 390px;
+        position: relative;
+        top: 0px;
+        left: 5em;
+    }
+    .c18 {
+        max-height: 390px;
+        position: relative;
+        top: 0px;
+        left: -2em;
+    }
+    .c19 {
+        max-height: 390px;
+        position: relative;
+        top: 0px;
+        left: 11em;
+    }
+    .oc-img-1 {
+        max-height: 359px;
+        margin-top: 20px;
+        position: relative;
+        left: 4em;
+        top: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .info {
+        padding: 0px !important;
+        padding-top: 25px !important;
+    }
+
+    .base-bombhead {
+        max-height: 450px;
+        float: none;
+        padding-top: 60px;
+        padding-bottom: 50px;
+        left: -20%;
+    }
+    .base-capture {
+        max-height: 450px;
+        float: none;
+        padding-top: 120px;
+        left: 0%;
+    }
+    .base-filament {
+        top: -280px;
+        max-height: 220px;
+        position: relative;
+        left: 15%;
+        bottom: 0px;
+    }
+    .base-charcuterie {
+        max-height: 350px;
+        position: relative;
+        top: -300px;
+        left: -5%;
+    }
+    .base-polygon {
+        max-height: 480px;
+        position: relative;
+        float: none;
+        bottom: 0px;
+        right: 0%;
+        top: -200px;
+        /*float*/
+    }
+
+    .base-sfu {
+        max-height: 270px;
+        position: relative;
+        bottom: 0px;
+        left: 5%;
+        top: -210px;
+    }
+
+    .base-redbull {
+        max-height: 240px;
+        position: relative;
+        bottom: 0px;
+        left: 0%;
+    }
+    .base-redbull-mobile {
+        max-height: 100px;
+        position: relative;
+        bottom: 160px;
+        left: 2%;
+    }
+
+    .base-feuilleton-mobile {
+        max-height: 180px;
+        position: relative;
+        bottom: 60px;
+        left: 0%;
+    }
+    .base-original {
+        max-height: 500px;
+        margin: 0 auto;
+        position: relative;
+        left: 0%;
+        top: -120px;
+    }
+    .base-feuilleton {
+        max-height: 350px;
+        position: relative;
+        float: none;
+        left: 0%;
+    }
+    .base-editions {
+        max-height: 550px;
+        float: none;
+        padding-top: 0px;
+        padding-bottom: 100px;
+    }
+
+    .base-project > a:last-child > img {
+        margin-bottom: 10%;
+    }
+
+    p.copyright {
+        bottom: -10px;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
